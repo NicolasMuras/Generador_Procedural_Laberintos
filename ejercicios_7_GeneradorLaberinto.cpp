@@ -60,7 +60,7 @@ int generarCaminos(array<array<char, 24>,24> &laberinto, int Y, int X){ // Gener
         cout<<"A\n\t\t|"<<endl<<endl;
         cout<<"Laberintos generados proceduralmente (al azar) mediante numeros pseudoaleatorios.\n"
               "Si el laberinto da vuelta a la derecha, siga la pared a su derecha.\n"
-              "Mientras no quite su mano de la pared, finalmente llegará a la salida del laberinto.\n";
+              "Mientras no quite su mano de la pared, finalmente llegarÃ¡ a la salida del laberinto.\n";
         camino = generarCaminos(laberinto, Y-1, X);
         if (camino){return generarCaminos(laberinto, Y-1, X);}
     }
@@ -68,7 +68,7 @@ int generarCaminos(array<array<char, 24>,24> &laberinto, int Y, int X){ // Gener
         cout<<"->"<<endl<<endl;
         cout<<"Laberintos generados proceduralmente (al azar) mediante numeros pseudoaleatorios.\n"
               "Si el laberinto da vuelta a la derecha, siga la pared a su derecha.\n"
-              "Mientras no quite su mano de la pared, finalmente llegará a la salida del laberinto.\n";
+              "Mientras no quite su mano de la pared, finalmente llegarÃ¡ a la salida del laberinto.\n";
         camino = generarCaminos(laberinto, Y, X+1);
         if (camino){return generarCaminos(laberinto, ::Y, ::X+1);}
     }
@@ -76,7 +76,7 @@ int generarCaminos(array<array<char, 24>,24> &laberinto, int Y, int X){ // Gener
         cout<<"|\n\t\tV"<<endl<<endl;
         cout<<"Laberintos generados proceduralmente (al azar) mediante numeros pseudoaleatorios.\n"
               "Si el laberinto da vuelta a la derecha, siga la pared a su derecha.\n"
-              "Mientras no quite su mano de la pared, finalmente llegará a la salida del laberinto.\n";
+              "Mientras no quite su mano de la pared, finalmente llegarÃ¡ a la salida del laberinto.\n";
         camino = generarCaminos(laberinto, Y+1, X);
         if (camino){return generarCaminos(laberinto, Y+1, X);}
     }
@@ -84,7 +84,7 @@ int generarCaminos(array<array<char, 24>,24> &laberinto, int Y, int X){ // Gener
         cout<<"<-"<<endl<<endl;
         cout<<"Laberintos generados proceduralmente (al azar) mediante numeros pseudoaleatorios.\n"
               "Si el laberinto da vuelta a la derecha, siga la pared a su derecha.\n"
-              "Mientras no quite su mano de la pared, finalmente llegará a la salida del laberinto.\n";
+              "Mientras no quite su mano de la pared, finalmente llegarÃ¡ a la salida del laberinto.\n";
         camino = generarCaminos(laberinto, Y, X-1);
         if (camino){return generarCaminos(laberinto, Y, X-1);}
     }
@@ -154,7 +154,7 @@ int positivoNegativo(){
     }
 }
 void imprimirLaberinto(array<array<char, 24>, 24> &laberinto){
-    cout<<" ============== Recursive Backtracking Labyrinth | By:  cyberian_husky_ ============== "<<endl;
+    cout<<" ============== Recursive Backtracking Labyrinth | By:  Nicolas Muras (AKA cyberian_husky_) ============== "<<endl;
     for (int i = 0; i < 24; i++){
         cout<<" |                 |";
         for (int j = 0; j < 24; j++){
