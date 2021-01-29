@@ -11,3 +11,5 @@ tenemos un punto de partida y un punto de llegada, el objetivo es claro.
 Para esto utilizamos numeros aleatorios, tanto para generar paredes como tambien para generar huecos.
 
 Es uno de los ejercicios con los que mas pude aprender en su momento y le guardo cariño, me hizo doler bastante la cabeza.
+
+_cyberian_husky es mi identidad secreta :D (o no tan secreta)
