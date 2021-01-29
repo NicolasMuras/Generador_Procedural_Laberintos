@@ -1,5 +1,8 @@
 # Generador_Procedural_Laberintos
+
 Genera y completa laberintos utilizando recursividad.
+
+![alt text](https://github.com/NicolasMuras/Generador_Procedural_Laberintos/blob/master/laberintos_ejemplo.jpg?raw=true)
 
 Ejercicio del libro "How to Program C++ by Paul Deitel" 9na Edicion !
 
