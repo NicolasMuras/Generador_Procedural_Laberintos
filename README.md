@@ -12,4 +12,4 @@ Para esto utilizamos numeros aleatorios, tanto para generar paredes como tambien
 
 Es uno de los ejercicios con los que mas pude aprender en su momento y le guardo cariño, me hizo doler bastante la cabeza.
 
-_cyberian_husky es mi identidad secreta :D (o no tan secreta)
+cyberian_husky_ es mi identidad secreta :D (o no tan secreta)
